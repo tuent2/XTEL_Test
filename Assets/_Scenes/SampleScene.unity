@@ -374,7 +374,7 @@ GameObject:
   - component: {fileID: 84719571}
   - component: {fileID: 84719572}
   m_Layer: 0
-  m_Name: SquareBlock
+  m_Name: SquareBlock3
   m_TagString: SquareBlock
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5695,7 +5695,7 @@ GameObject:
   - component: {fileID: 289576423}
   - component: {fileID: 289576424}
   m_Layer: 0
-  m_Name: SquareBlock
+  m_Name: SquareBlock2
   m_TagString: SquareBlock
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6420,13 +6420,14 @@ GameObject:
   m_Component:
   - component: {fileID: 745143539}
   - component: {fileID: 745143540}
+  - component: {fileID: 745143541}
   m_Layer: 0
   m_Name: Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &745143539
 Transform:
   m_ObjectHideFlags: 0
@@ -6457,6 +6458,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalTextPoint: {fileID: 658025796}
   message: {fileID: 519174420}
+--- !u!111 &745143541
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745143538}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 31a2c932e379385489380c06f072e87c, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 31a2c932e379385489380c06f072e87c, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1171886741
 GameObject:
   m_ObjectHideFlags: 0
@@ -6654,7 +6671,7 @@ GameObject:
   - component: {fileID: 1181429621}
   - component: {fileID: 1181429622}
   m_Layer: 0
-  m_Name: SquareBlock
+  m_Name: SquareBlock1
   m_TagString: SquareBlock
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6829,7 +6846,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1236093772
 Transform:
   m_ObjectHideFlags: 0
@@ -6873,9 +6890,10 @@ Animation:
   m_GameObject: {fileID: 1236093771}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 7a3ac387c6255724280f1c5650df08cd, type: 2}
+  m_Animation: {fileID: 7400000, guid: afc39926d28021540bbf82dc427870a7, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 7a3ac387c6255724280f1c5650df08cd, type: 2}
+  - {fileID: 7400000, guid: afc39926d28021540bbf82dc427870a7, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -7933,7 +7951,7 @@ GameObject:
   - component: {fileID: 2125608200}
   - component: {fileID: 2125608201}
   m_Layer: 0
-  m_Name: SquareBlock
+  m_Name: SquareBlock0
   m_TagString: SquareBlock
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

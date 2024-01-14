@@ -59,6 +59,9 @@ public class GamePlayController : MonoBehaviour
         Player.SetPreparePlay();
     }
 
+   
+
+
     public void CollideRetangleBlock()
     {
         if (currentRetangleBlock == 0)
